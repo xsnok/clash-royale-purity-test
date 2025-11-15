@@ -29,7 +29,7 @@ export default function QuestionForm() {
     // Classic Rice Purity Calculation
     const purityScore = Math.round(100 - (checkedCount / total) * 100);
 
-    navigate(`/score?score=${purityScore}`);
+    navigate(`/score/${purityScore}`);
   }
 
   return (

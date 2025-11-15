@@ -6,9 +6,9 @@ export default function Scores() {
 
   const flavorText =
     numericScore >= 90
-      ? "You're pure… like a level 1 account in Goblin Stadium."
+      ? "You're pure… like a level 3 account in Goblin Stadium."
       : numericScore >= 70
-      ? "You've seen some things… but you're still mostly pure."
+      ? "You've seen some things… but you're still mostly pure. Like a level 7 berserker."
       : numericScore >= 50
       ? "You're mid… like an underleveled Hog Rider deck."
       : numericScore >= 30
