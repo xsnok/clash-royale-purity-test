@@ -48,7 +48,7 @@ export default function QuestionForm() {
           onSubmit={handleSubmit}
           className="space-y-4 bg-slate-700 bg-opacity-60 shadow-lg rounded-xl p-6"
         >
-        <div className="space-y-3 max-h-[70vh] overflow-y-auto pr-2">
+        <div className="space-y-3 pr-2">
           {(questions as Question[]).map((q) => (
             <label
               key={q.id}
@@ -60,7 +60,7 @@ export default function QuestionForm() {
                 checked={!!answers[q.id]}
                 onChange={() => handleToggle(q.id)}
               />
-              <span className="text-slate-100 leading-tight">{q.text}</span>
+              <span className="text-slate-100 leading-tight">{q.id + ". " + q.text}</span>
             </label>
           ))}
         </div>
