@@ -1,5 +1,6 @@
 http://midnight.hackclub.com/
 http://hackclub.com/
+This is a project made for hackclub Midnight!
 
 Simple React app that is a Clash Royale themed parody of the Rice Purity Test
 Deployed on:
